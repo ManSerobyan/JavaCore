@@ -2,7 +2,7 @@ package chapter2;
 
 public class Example2 {
 
-    public static void main(String[] args) {
+       public static void main(String[] args) {
         int num = 500;
 
         System.out.println(num);
