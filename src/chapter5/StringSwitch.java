@@ -4,7 +4,7 @@ public class StringSwitch {
 
     public static void main(String[] args) {
         String str = " два";
-        switch (str){
+        switch (str) {
             case "один":
                 System.out.println("один");
                 break;
