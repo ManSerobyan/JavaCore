@@ -2,7 +2,7 @@ package homeworks.homework6;
 
 public class ArrayUtil {
 
-    void arrayUtilElements(int [] array) {
+    void arrayUtilElements(int[] array) {
 
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
@@ -75,7 +75,7 @@ public class ArrayUtil {
 
     }
 
-    void arrayUtilSum(int [] array) {
+    void arrayUtilSum(int[] array) {
 
         int sum = 0;
         for (int i = 0; i < array.length; i++) {
