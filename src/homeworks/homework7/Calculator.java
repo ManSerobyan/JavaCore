@@ -17,7 +17,6 @@ public class Calculator {
     double divide(double numOne, double numTwo) {
         if (numTwo == 0) {
             return -1;
-
         }
         return numOne / numTwo;
     }

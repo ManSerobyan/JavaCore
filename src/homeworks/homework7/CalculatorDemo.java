@@ -18,7 +18,6 @@ public class CalculatorDemo {
         result = calc.divide(1148, 24);
         System.out.println(result);
 
-
     }
 
 }
