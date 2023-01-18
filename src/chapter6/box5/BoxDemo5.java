@@ -1,4 +1,4 @@
-package chapter6;
+package chapter6.box5;
 
 public class BoxDemo5 {
 
@@ -10,10 +10,10 @@ public class BoxDemo5 {
         myBox1.setDim(10, 20, 15);
         myBox2.setDim(3, 6, 9);
 
-        vol = myBox1.volume(0);
+        vol = myBox1.volume();
         System.out.println(vol);
 
-        vol = myBox2.volume(0);
+        vol = myBox2.volume();
         System.out.println(vol);
 
     }

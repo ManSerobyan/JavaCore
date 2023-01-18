@@ -1,11 +1,10 @@
-package chapter6;
+package chapter6.box3;
 
-public class BoxDemo4 {
+public class BoxDemo3 {
 
     public static void main(String[] args) {
         Box myBox1 = new Box();
         Box myBox2 = new Box();
-        double vol;
 
         myBox1.width = 10;
         myBox1.height = 20;
@@ -15,11 +14,7 @@ public class BoxDemo4 {
         myBox2.height = 6;
         myBox2.depth = 9;
 
-        vol = myBox1.volume(0);
-        System.out.println(vol);
-
-        vol = myBox2.volume(0);
-        System.out.println(vol);
-
+        myBox1.volume();
+        myBox2.volume();
     }
 }
